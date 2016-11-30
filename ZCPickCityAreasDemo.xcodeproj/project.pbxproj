@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C354B5AA1DEEB0DD000FFA0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C354B5A91DEEB0DD000FFA0E /* main.m */; };
+		C354B5AD1DEEB0DD000FFA0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C354B5AC1DEEB0DD000FFA0E /* AppDelegate.m */; };
+		C354B5B31DEEB0DD000FFA0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C354B5B11DEEB0DD000FFA0E /* Main.storyboard */; };
+		C354B5B51DEEB0DD000FFA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C354B5B41DEEB0DD000FFA0E /* Assets.xcassets */; };
+		C354B5B81DEEB0DD000FFA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C354B5B61DEEB0DD000FFA0E /* LaunchScreen.storyboard */; };
+		C354B5C31DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C354B5C21DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests.m */; };
+		C354B5CE1DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C354B5CD1DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests.m */; };
+		C354B5DF1DEEB164000FFA0E /* ZCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C354B5DE1DEEB164000FFA0E /* ZCViewController.m */; };
+		C354B5E21DEEB195000FFA0E /* ZCShowCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354B5E11DEEB195000FFA0E /* ZCShowCityTableViewCell.m */; };
+		C354B5E51DEEB1BB000FFA0E /* ZCPickAreaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354B5E41DEEB1BB000FFA0E /* ZCPickAreaTableViewCell.m */; };
+		C354B5E81DEEB1DF000FFA0E /* ZCPickAreaHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C354B5E71DEEB1DF000FFA0E /* ZCPickAreaHeadView.m */; };
+		C354B5EB1DEEB1FC000FFA0E /* ZCPickCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C354B5EA1DEEB1FC000FFA0E /* ZCPickCityViewController.m */; };
+		C354B5EE1DEEB29A000FFA0E /* ZCCity.txt in Resources */ = {isa = PBXBuildFile; fileRef = C354B5ED1DEEB29A000FFA0E /* ZCCity.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C354B5BF1DEEB0DD000FFA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C354B59D1DEEB0DD000FFA0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C354B5A41DEEB0DD000FFA0E;
+			remoteInfo = ZCPickCityAreasDemo;
+		};
+		C354B5CA1DEEB0DD000FFA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C354B59D1DEEB0DD000FFA0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C354B5A41DEEB0DD000FFA0E;
+			remoteInfo = ZCPickCityAreasDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C354B5A51DEEB0DD000FFA0E /* ZCPickCityAreasDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCPickCityAreasDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C354B5A91DEEB0DD000FFA0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C354B5AB1DEEB0DD000FFA0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C354B5AC1DEEB0DD000FFA0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C354B5B21DEEB0DD000FFA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C354B5B41DEEB0DD000FFA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C354B5B71DEEB0DD000FFA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C354B5B91DEEB0DD000FFA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C354B5BE1DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCPickCityAreasDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C354B5C21DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCPickCityAreasDemoTests.m; sourceTree = "<group>"; };
+		C354B5C41DEEB0DD000FFA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C354B5C91DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCPickCityAreasDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C354B5CD1DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCPickCityAreasDemoUITests.m; sourceTree = "<group>"; };
+		C354B5CF1DEEB0DD000FFA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C354B5DD1DEEB164000FFA0E /* ZCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCViewController.h; sourceTree = "<group>"; };
+		C354B5DE1DEEB164000FFA0E /* ZCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCViewController.m; sourceTree = "<group>"; };
+		C354B5E01DEEB195000FFA0E /* ZCShowCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCShowCityTableViewCell.h; sourceTree = "<group>"; };
+		C354B5E11DEEB195000FFA0E /* ZCShowCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCShowCityTableViewCell.m; sourceTree = "<group>"; };
+		C354B5E31DEEB1BB000FFA0E /* ZCPickAreaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCPickAreaTableViewCell.h; sourceTree = "<group>"; };
+		C354B5E41DEEB1BB000FFA0E /* ZCPickAreaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCPickAreaTableViewCell.m; sourceTree = "<group>"; };
+		C354B5E61DEEB1DF000FFA0E /* ZCPickAreaHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCPickAreaHeadView.h; sourceTree = "<group>"; };
+		C354B5E71DEEB1DF000FFA0E /* ZCPickAreaHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCPickAreaHeadView.m; sourceTree = "<group>"; };
+		C354B5E91DEEB1FC000FFA0E /* ZCPickCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCPickCityViewController.h; sourceTree = "<group>"; };
+		C354B5EA1DEEB1FC000FFA0E /* ZCPickCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCPickCityViewController.m; sourceTree = "<group>"; };
+		C354B5EC1DEEB258000FFA0E /* ZCPublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCPublicHeader.h; sourceTree = "<group>"; };
+		C354B5ED1DEEB29A000FFA0E /* ZCCity.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZCCity.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C354B5A21DEEB0DD000FFA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C354B5BB1DEEB0DD000FFA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C354B5C61DEEB0DD000FFA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C354B59C1DEEB0DD000FFA0E = {
+			isa = PBXGroup;
+			children = (
+				C354B5A71DEEB0DD000FFA0E /* ZCPickCityAreasDemo */,
+				C354B5C11DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests */,
+				C354B5CC1DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests */,
+				C354B5A61DEEB0DD000FFA0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C354B5A61DEEB0DD000FFA0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C354B5A51DEEB0DD000FFA0E /* ZCPickCityAreasDemo.app */,
+				C354B5BE1DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests.xctest */,
+				C354B5C91DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C354B5A71DEEB0DD000FFA0E /* ZCPickCityAreasDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C354B5AB1DEEB0DD000FFA0E /* AppDelegate.h */,
+				C354B5AC1DEEB0DD000FFA0E /* AppDelegate.m */,
+				C354B5DC1DEEB164000FFA0E /* ViewController */,
+				C354B5DB1DEEB164000FFA0E /* PickCityViewController */,
+				C354B5B11DEEB0DD000FFA0E /* Main.storyboard */,
+				C354B5ED1DEEB29A000FFA0E /* ZCCity.txt */,
+				C354B5EC1DEEB258000FFA0E /* ZCPublicHeader.h */,
+				C354B5B41DEEB0DD000FFA0E /* Assets.xcassets */,
+				C354B5B61DEEB0DD000FFA0E /* LaunchScreen.storyboard */,
+				C354B5B91DEEB0DD000FFA0E /* Info.plist */,
+				C354B5A81DEEB0DD000FFA0E /* Supporting Files */,
+			);
+			path = ZCPickCityAreasDemo;
+			sourceTree = "<group>";
+		};
+		C354B5A81DEEB0DD000FFA0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C354B5A91DEEB0DD000FFA0E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C354B5C11DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C354B5C21DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests.m */,
+				C354B5C41DEEB0DD000FFA0E /* Info.plist */,
+			);
+			path = ZCPickCityAreasDemoTests;
+			sourceTree = "<group>";
+		};
+		C354B5CC1DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C354B5CD1DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests.m */,
+				C354B5CF1DEEB0DD000FFA0E /* Info.plist */,
+			);
+			path = ZCPickCityAreasDemoUITests;
+			sourceTree = "<group>";
+		};
+		C354B5DB1DEEB164000FFA0E /* PickCityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C354B5E91DEEB1FC000FFA0E /* ZCPickCityViewController.h */,
+				C354B5EA1DEEB1FC000FFA0E /* ZCPickCityViewController.m */,
+				C354B5E31DEEB1BB000FFA0E /* ZCPickAreaTableViewCell.h */,
+				C354B5E41DEEB1BB000FFA0E /* ZCPickAreaTableViewCell.m */,
+				C354B5E61DEEB1DF000FFA0E /* ZCPickAreaHeadView.h */,
+				C354B5E71DEEB1DF000FFA0E /* ZCPickAreaHeadView.m */,
+			);
+			path = PickCityViewController;
+			sourceTree = "<group>";
+		};
+		C354B5DC1DEEB164000FFA0E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C354B5DD1DEEB164000FFA0E /* ZCViewController.h */,
+				C354B5DE1DEEB164000FFA0E /* ZCViewController.m */,
+				C354B5E01DEEB195000FFA0E /* ZCShowCityTableViewCell.h */,
+				C354B5E11DEEB195000FFA0E /* ZCShowCityTableViewCell.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C354B5A41DEEB0DD000FFA0E /* ZCPickCityAreasDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C354B5D21DEEB0DD000FFA0E /* Build configuration list for PBXNativeTarget "ZCPickCityAreasDemo" */;
+			buildPhases = (
+				C354B5A11DEEB0DD000FFA0E /* Sources */,
+				C354B5A21DEEB0DD000FFA0E /* Frameworks */,
+				C354B5A31DEEB0DD000FFA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCPickCityAreasDemo;
+			productName = ZCPickCityAreasDemo;
+			productReference = C354B5A51DEEB0DD000FFA0E /* ZCPickCityAreasDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C354B5BD1DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C354B5D51DEEB0DD000FFA0E /* Build configuration list for PBXNativeTarget "ZCPickCityAreasDemoTests" */;
+			buildPhases = (
+				C354B5BA1DEEB0DD000FFA0E /* Sources */,
+				C354B5BB1DEEB0DD000FFA0E /* Frameworks */,
+				C354B5BC1DEEB0DD000FFA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C354B5C01DEEB0DD000FFA0E /* PBXTargetDependency */,
+			);
+			name = ZCPickCityAreasDemoTests;
+			productName = ZCPickCityAreasDemoTests;
+			productReference = C354B5BE1DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C354B5C81DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C354B5D81DEEB0DD000FFA0E /* Build configuration list for PBXNativeTarget "ZCPickCityAreasDemoUITests" */;
+			buildPhases = (
+				C354B5C51DEEB0DD000FFA0E /* Sources */,
+				C354B5C61DEEB0DD000FFA0E /* Frameworks */,
+				C354B5C71DEEB0DD000FFA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C354B5CB1DEEB0DD000FFA0E /* PBXTargetDependency */,
+			);
+			name = ZCPickCityAreasDemoUITests;
+			productName = ZCPickCityAreasDemoUITests;
+			productReference = C354B5C91DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C354B59D1DEEB0DD000FFA0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "曹檑";
+				TargetAttributes = {
+					C354B5A41DEEB0DD000FFA0E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C354B5BD1DEEB0DD000FFA0E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C354B5A41DEEB0DD000FFA0E;
+					};
+					C354B5C81DEEB0DD000FFA0E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C354B5A41DEEB0DD000FFA0E;
+					};
+				};
+			};
+			buildConfigurationList = C354B5A01DEEB0DD000FFA0E /* Build configuration list for PBXProject "ZCPickCityAreasDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C354B59C1DEEB0DD000FFA0E;
+			productRefGroup = C354B5A61DEEB0DD000FFA0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C354B5A41DEEB0DD000FFA0E /* ZCPickCityAreasDemo */,
+				C354B5BD1DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests */,
+				C354B5C81DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C354B5A31DEEB0DD000FFA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C354B5B81DEEB0DD000FFA0E /* LaunchScreen.storyboard in Resources */,
+				C354B5B51DEEB0DD000FFA0E /* Assets.xcassets in Resources */,
+				C354B5EE1DEEB29A000FFA0E /* ZCCity.txt in Resources */,
+				C354B5B31DEEB0DD000FFA0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C354B5BC1DEEB0DD000FFA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C354B5C71DEEB0DD000FFA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C354B5A11DEEB0DD000FFA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C354B5DF1DEEB164000FFA0E /* ZCViewController.m in Sources */,
+				C354B5E81DEEB1DF000FFA0E /* ZCPickAreaHeadView.m in Sources */,
+				C354B5EB1DEEB1FC000FFA0E /* ZCPickCityViewController.m in Sources */,
+				C354B5AD1DEEB0DD000FFA0E /* AppDelegate.m in Sources */,
+				C354B5E51DEEB1BB000FFA0E /* ZCPickAreaTableViewCell.m in Sources */,
+				C354B5E21DEEB195000FFA0E /* ZCShowCityTableViewCell.m in Sources */,
+				C354B5AA1DEEB0DD000FFA0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C354B5BA1DEEB0DD000FFA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C354B5C31DEEB0DD000FFA0E /* ZCPickCityAreasDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C354B5C51DEEB0DD000FFA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C354B5CE1DEEB0DD000FFA0E /* ZCPickCityAreasDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C354B5C01DEEB0DD000FFA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C354B5A41DEEB0DD000FFA0E /* ZCPickCityAreasDemo */;
+			targetProxy = C354B5BF1DEEB0DD000FFA0E /* PBXContainerItemProxy */;
+		};
+		C354B5CB1DEEB0DD000FFA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C354B5A41DEEB0DD000FFA0E /* ZCPickCityAreasDemo */;
+			targetProxy = C354B5CA1DEEB0DD000FFA0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C354B5B11DEEB0DD000FFA0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C354B5B21DEEB0DD000FFA0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C354B5B61DEEB0DD000FFA0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C354B5B71DEEB0DD000FFA0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C354B5D01DEEB0DD000FFA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C354B5D11DEEB0DD000FFA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C354B5D31DEEB0DD000FFA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ZCPickCityAreasDemo/ZCPublicHeader.h;
+				INFOPLIST_FILE = ZCPickCityAreasDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCPickCityAreasDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C354B5D41DEEB0DD000FFA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ZCPickCityAreasDemo/ZCPublicHeader.h;
+				INFOPLIST_FILE = ZCPickCityAreasDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCPickCityAreasDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C354B5D61DEEB0DD000FFA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCPickCityAreasDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCPickCityAreasDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCPickCityAreasDemo.app/ZCPickCityAreasDemo";
+			};
+			name = Debug;
+		};
+		C354B5D71DEEB0DD000FFA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCPickCityAreasDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCPickCityAreasDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCPickCityAreasDemo.app/ZCPickCityAreasDemo";
+			};
+			name = Release;
+		};
+		C354B5D91DEEB0DD000FFA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCPickCityAreasDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCPickCityAreasDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCPickCityAreasDemo;
+			};
+			name = Debug;
+		};
+		C354B5DA1DEEB0DD000FFA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCPickCityAreasDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCPickCityAreasDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCPickCityAreasDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C354B5A01DEEB0DD000FFA0E /* Build configuration list for PBXProject "ZCPickCityAreasDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C354B5D01DEEB0DD000FFA0E /* Debug */,
+				C354B5D11DEEB0DD000FFA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C354B5D21DEEB0DD000FFA0E /* Build configuration list for PBXNativeTarget "ZCPickCityAreasDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C354B5D31DEEB0DD000FFA0E /* Debug */,
+				C354B5D41DEEB0DD000FFA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C354B5D51DEEB0DD000FFA0E /* Build configuration list for PBXNativeTarget "ZCPickCityAreasDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C354B5D61DEEB0DD000FFA0E /* Debug */,
+				C354B5D71DEEB0DD000FFA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C354B5D81DEEB0DD000FFA0E /* Build configuration list for PBXNativeTarget "ZCPickCityAreasDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C354B5D91DEEB0DD000FFA0E /* Debug */,
+				C354B5DA1DEEB0DD000FFA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C354B59D1DEEB0DD000FFA0E /* Project object */;
+}
